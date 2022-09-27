@@ -1,6 +1,8 @@
-{
-    box-sizing:border-box;
-}
+* {
+    box-sizing: border-box;
+   /* box-sizing est appliqué à tous les éléments */
+   }
+   
 
 @font-face {
     font-family: 'raleway-regular';
