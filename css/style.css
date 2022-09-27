@@ -3,11 +3,21 @@
 }
 
 @font-face {
-    font-family: 'raleway';
-    src: url('Raleway-Regular.ttf') format('truetype'),
+    font-family: 'raleway-regular';
+    src: url('polices/Raleway-Regular.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'raleway-bold';
+    src: url('polices/Raleway-Bold.ttf') format('truetype'),
+}
+
+h1
+{
+    font-family: 'raleway-bold', Arial, serif;
 }
 
 p
 {
-    font-family: 'raleway', Arial, serif;
+    font-family: 'raleway-regular', Arial, serif;
 }
