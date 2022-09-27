@@ -1,3 +1,13 @@
 {
     box-sizing:border-box;
 }
+
+@font-face {
+    font-family: 'raleway';
+    src: url('Raleway-Regular.ttf') format('truetype'),
+}
+
+p
+{
+    font-family: 'raleway', Arial, serif;
+}
