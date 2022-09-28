@@ -3,6 +3,10 @@
    /* box-sizing est appliqué à tous les éléments */
    }
    
+body
+{
+    margin: 50px;
+} 
 
 /* Polices */   
 
@@ -16,12 +20,12 @@
     src: url('polices/Raleway-Bold.ttf') format('truetype'),
 }
 
-h1
+h1 , h2
 {
     font-family: 'raleway-bold', Arial, serif;
 }
 
-p , header
+body
 {
     font-family: 'raleway-regular', Arial, serif;
 }
@@ -33,10 +37,14 @@ header
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-
-/* Navigation */
+header img
+{ 
+    height: 45px;
+    margin-left: 20px;
+}
 
 nav ul
 {
