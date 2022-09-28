@@ -8,9 +8,23 @@
         <title>Booki</title>
     </head>
 
+
+    <header>
+
+        <img src="images/logo/Booki.png" alt="Booki" />
+        
+        <nav>
+            <ul>
+                <li><a href="">Hébergements</a></li>
+                <li><a href="">Activités</a></li>
+            </ul>
+        </nav>
+
+    </header>   
+
     <body>
-        <h1>Salut !</h1>
-        <p>Bienvenue sur mon site !</p>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
 
         <i class="fas fa-location-dot"></i>
         <i class="fas fa-info"></i>
@@ -19,12 +33,21 @@
         <i class="fas fa-dog"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-heart" style="font-size: 20px; color: #0065FC"></i>
-
+    
         <form method="post" action="traitement.php">
             <input type="search" />
             <input type="submit" value="Rechercher" />
          </form>
-         
+
+         <div id="filtres">
+            <ul>
+                <li class="filter active" data-filter="all">Tout</li>
+                <li class="filter" data-filter="video">Videos</li>
+                <li class="filter" data-filter="audio">Audios</li>
+                <li class="filter" data-filter="texte">Textes</li>
+            </ul>
+        </div>
+
     </body>
 
 </html>

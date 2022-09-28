@@ -4,6 +4,8 @@
    }
    
 
+/* Polices */   
+
 @font-face {
     font-family: 'raleway-regular';
     src: url('polices/Raleway-Regular.ttf') format('truetype'),
@@ -19,7 +21,44 @@ h1
     font-family: 'raleway-bold', Arial, serif;
 }
 
-p
+p , header
 {
     font-family: 'raleway-regular', Arial, serif;
+}
+
+
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    font-size: 16px;
+    color: #181818;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
