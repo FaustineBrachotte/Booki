@@ -4,8 +4,8 @@
    }
 
 body {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* Polices */   
@@ -26,7 +26,15 @@ h1 , h2 , #search, #button
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 20px;
+    padding-bottom: 6px;
+    margin: 0px;
+}
+
+p {
+    font-size: 15px;
+    padding-bottom: 17px;
+    margin: 0px;
 }
 
 body
@@ -47,9 +55,9 @@ header
 
 header img
 { 
-    height: 45px;
+    height: 40px;
     margin-top: 35px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 nav ul
@@ -67,7 +75,7 @@ nav a
 {
     font-size: 16px;
     color: #181818;
-    padding-top: 36px;
+    padding-top: 34px;
     padding-bottom: 15px;
     text-decoration: none;
 }
@@ -142,6 +150,13 @@ nav a:hover
     height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
+    }
+
+
+    #button
+    {
+     border-radius: 12px 12px 12px 12px;
+     border: none;
     }
 
 }
