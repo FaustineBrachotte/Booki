@@ -8,6 +8,7 @@ body {
     margin-right: 50px;
 }
 
+
 /* Polices */   
 
 @font-face {
@@ -20,8 +21,7 @@ body {
     src: url('polices/Raleway-Bold.ttf') format('truetype')
 }
 
-h1 , h2 , #search, #button
-{
+h1 , h2 , #search, #button {
     font-family: 'raleway-bold', Arial, serif;
 }
 
@@ -37,42 +37,36 @@ p {
     margin: 0px;
 }
 
-body
-{
+body {
     font-family: 'raleway-regular', Arial, serif;
 }
 
 
 /* Header */
 
-header
-{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
 }
 
-header img
-{ 
+header img { 
     height: 40px;
     margin-top: 35px;
     margin-left: 15px;
 }
 
-nav ul
-{
+nav ul {
     list-style-type: none;
     display: flex;
 }
 
-nav li
-{
+nav li {
     margin-right: 50px;
 }
 
-nav a
-{
+nav a {
     font-size: 16px;
     color: #181818;
     padding-top: 34px;
@@ -80,8 +74,7 @@ nav a
     text-decoration: none;
 }
 
-nav a:hover
-{
+nav a:hover {
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
@@ -89,8 +82,7 @@ nav a:hover
 
 /* Search bar */
 
-#search-bar
-{
+#search-bar {
     display: flex;
 }
 
@@ -100,17 +92,14 @@ nav a:hover
     padding: 14px 18px;
 }
 
-#search
-{
+#search {
     position: relative;
     border-color: #F2F2F2;
     padding: 12px;
     font-size: 16px;
-
 }
 
-#button
-{
+#button {
  position: relative;
  left: -2%;
  color: white;
@@ -119,7 +108,6 @@ nav a:hover
  border-radius: 0px 12px 12px 0px;
  border: none;
  font-size: 16px;
-
 }
 
 #button-mobile {
@@ -127,11 +115,42 @@ nav a:hover
 }
 
 
+/* Filtres */
+
+#filtres {
+    display: flex;
+    margin-top: 30px;
+}
+
+#filtres {
+    display: flex;
+}
+
+.filtres {
+    display: flex;
+    margin-left: 50px;
+}
+
+.filter-icon {
+    display: flex;
+    background-color: #DEEBFF;
+    border-radius: 40px 40px;
+    padding: 18px 15px 7px 15px;
+}
+
+.filter-title {
+    display: flex;
+    border: solid;
+    border-color:#F2F2F2;
+    border-radius: 30px 30px 30px 30px;
+    padding: 14px 14px;
+}
+
 
 
 /* Mobile */
 
-@media screen and (max-width: 992px)
+@media screen and (max-width: 768px)
 {
 
     body {
@@ -142,20 +161,17 @@ nav a:hover
 
     /* Mobile header */
 
-    nav a:hover
-    {
+    nav a:hover {
         color: #0065FC;
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
 
-    header
-    {
+    header {
         flex-direction: column;
     }
 
-    header img
-    { 
+    header img { 
     height: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -164,8 +180,7 @@ nav a:hover
 
     /* Mobile search bar */
 
-    #button
-    {
+    #button {
         display: none;
     }
 
