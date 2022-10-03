@@ -122,8 +122,14 @@ nav a:hover
 
 }
 
-/* Mobile */
+#button-mobile {
+    display: none;
+}
 
+
+
+
+/* Mobile */
 
 @media screen and (max-width: 992px)
 {
@@ -132,6 +138,9 @@ nav a:hover
         margin-left: none;
         margin-right: none;
     }
+
+
+    /* Mobile header */
 
     nav a:hover
     {
@@ -153,10 +162,21 @@ nav a:hover
     }
 
 
+    /* Mobile search bar */
+
     #button
     {
-     border-radius: 12px 12px 12px 12px;
-     border: none;
+        display: none;
     }
 
+    #button-mobile {
+        position: relative;
+        left: -6%;
+        color: white;
+        background-color: #0065FC;
+        border: none;
+        display:inline;
+        padding: 17px;
+        border-radius: 13px 13px 13px 13px;
+    }
 }
