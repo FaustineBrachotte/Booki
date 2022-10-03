@@ -12,15 +12,15 @@ body {
 
 @font-face {
     font-family: 'raleway-regular';
-    src: url('polices/Raleway-Regular.ttf') format('truetype'),
+    src: url('polices/Raleway-Regular.ttf') format('truetype')
 }
 
 @font-face {
     font-family: 'raleway-bold';
-    src: url('polices/Raleway-Bold.ttf') format('truetype'),
+    src: url('polices/Raleway-Bold.ttf') format('truetype')
 }
 
-h1 , h2
+h1 , h2 , #search, #button
 {
     font-family: 'raleway-bold', Arial, serif;
 }
@@ -86,7 +86,33 @@ nav a:hover
     display: flex;
 }
 
+#location {
+    background-color: #F2F2F2;
+    border-radius: 12px 0px 0px 12px;
+    padding: 14px 18px;
+}
 
+#search
+{
+    position: relative;
+    border-color: #F2F2F2;
+    padding: 12px;
+    font-size: 16px;
+
+}
+
+#button
+{
+ position: relative;
+ left: -2%;
+ color: white;
+ background-color: #0065FC;
+ padding: 14px;
+ border-radius: 0px 12px 12px 0px;
+ border: none;
+ font-size: 16px;
+
+}
 
 /* Mobile */
 

@@ -30,31 +30,24 @@
 
         <div id="search-bar">
             
-            <i class="fas fa-location-dot" style="font-size: 20px"></i>
+            <i id="location" class="fas fa-location-dot" style="font-size: 15px"></i>
     
             <form method="post" action="traitement.php">
-                 <input type="search" />
-                 <input type="submit" value="Rechercher" />
+                 <input type="search" name="search" id="search" placeholder="Marseille, France" size="25"/>
+                 <input type="submit" name="button" id="button" value="Rechercher" />
             </form>
         
         </div>
 
-
-         <div id="filtres">
-            <ul>
-                <li class="filter active" data-filter="all">Tout</li>
-                <li class="filter" data-filter="video">Videos</li>
-                <li class="filter" data-filter="audio">Audios</li>
-                <li class="filter" data-filter="texte">Textes</li>
-            </ul>
-        </div>
-
+ <!-- 
         <i class="fas fa-info"></i>
         <i class="fas fa-money-bill-wave"></i>
         <i class="fas fa-child-reaching"></i>
         <i class="fas fa-dog"></i>
         <i class="fas fa-star"></i>
         <i class="fas fa-heart" style="font-size: 20px; color: #0065FC"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+-->
 
     </main>    
 
