@@ -86,31 +86,36 @@ nav a:hover {
     display: flex;
 }
 
-#location {
+#location-icon {
     background-color: #F2F2F2;
     border-radius: 12px 0px 0px 12px;
     padding: 14px 18px;
 }
 
-#search {
+#search-text {
     position: relative;
     border-color: #F2F2F2;
     padding: 12px;
     font-size: 16px;
 }
 
-#button {
- position: relative;
- left: -2%;
- color: white;
- background-color: #0065FC;
- padding: 14px;
- border-radius: 0px 12px 12px 0px;
- border: none;
- font-size: 16px;
+#search-button {
+    position: relative;
+    left: -2%;
+    color: white;
+    background-color: #0065FC;
+    padding: 14px;
+    border-radius: 0px 12px 12px 0px;
+    border: none;
+    font-size: 16px;
 }
 
-#button-mobile {
+#search-button:hover {
+    cursor: pointer;
+    background-color: #2C75FF;
+}
+
+#search-button-mobile {
     display: none;
 }
 
@@ -119,16 +124,26 @@ nav a:hover {
 
 #filters-section {
     display: flex;
-    margin-top: 30px;
     align-items: baseline;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#filter-title {
+    margin-right: 30px;
+}
+
+#list-of-filters {
+    display: flex;
 }
 
 .filter {
     display: flex;
     align-items: center;
-    margin-left: 30px;
-    border: solid;
-    border-color:#F2F2F2;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border: solid 2px;
+    border-color:#DCDCDC;
     border-radius: 30px;
     padding: 0px 10px 0px 0px;
 }
@@ -140,8 +155,31 @@ nav a:hover {
 }
 
 .filter-title {
+    color: black;
+    text-decoration: none;
     padding: 0px 5px 0px 10px;
 }
+
+.filter:hover {
+    border: none;
+    background-color: #6495ED	;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#filter-info {
+    display: flex;
+    align-items: baseline;
+}
+
+.info-icon {
+    border: solid 1px;
+    border-color: #D3D3D3;
+    border-radius: 50px;
+    padding: 4px 8px 4px 8px;
+    margin-right: 8px;
+}
+
 
 
 
@@ -170,19 +208,19 @@ nav a:hover {
     }
 
     header img { 
-    height: 45px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        height: 45px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
 
     /* Mobile search bar */
 
-    #button {
+    #search-button {
         display: none;
     }
 
-    #button-mobile {
+    #search-button-mobile {
         position: relative;
         left: -6%;
         color: white;
@@ -191,5 +229,21 @@ nav a:hover {
         display:inline;
         padding: 17px;
         border-radius: 13px 13px 13px 13px;
+    }
+
+    #search-button-mobile:hover {
+        cursor: pointer;
+        background-color: #2C75FF;
+    }
+
+
+    /* Mobile filters */
+
+    #filters-section {
+        flex-wrap: wrap;
+    }
+  
+    #list-of-filters {
+        flex-wrap: wrap;
     }
 }
