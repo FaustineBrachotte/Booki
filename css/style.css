@@ -21,7 +21,7 @@ body {
     src: url('polices/Raleway-Bold.ttf') format('truetype')
 }
 
-h1 , h2 , #search, #button, #filters-section {
+h1 , h2 , #search-text, #search-button, #filters-section {
     font-family: 'raleway-bold', Arial, serif;
 }
 
@@ -179,9 +179,6 @@ nav a:hover {
     padding: 4px 8px 4px 8px;
     margin-right: 8px;
 }
-
-
-
 
 
 /* Mobile */
