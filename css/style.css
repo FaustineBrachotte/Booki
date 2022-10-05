@@ -63,7 +63,7 @@ header {
 
 header img { 
     height: 45px;
-    margin-top: 16px;
+    margin-top: 35px;
     margin-left: 17px;
 }
 
@@ -79,13 +79,13 @@ nav li {
 nav a {
     font-size: 16px;
     color: #181818;
-    padding: 34px 0 15px 0;
+    padding: 28px 0 15px 0;
     text-decoration: none;
 }
 
 nav a:hover {
     color: #0065FC;
-    border-top: 3px solid #0065FC;
+    border-top: 4px solid #0065FC;
 }
 
 
@@ -202,13 +202,18 @@ nav a:hover {
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
+    margin-bottom: 20px;
   }
 
 .hotel-card a {
     text-decoration: none;
 }
 
-  .hotel-image img {
+.hotel-card:hover {
+    box-shadow: 0 0 20px #6495ED;
+}
+
+.hotel-image img {
     height: 120px;
     width: 100%;
     object-fit: cover;
@@ -234,6 +239,46 @@ nav a:hover {
     color: #D3D3D3;
     font-size: 12px;
 }
+
+
+/* Carte les plus populaires */
+
+.pop-hotel-card {
+    width: 350px;
+    border: solid 5px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px #D3D3D3;
+    margin-bottom: 20px;
+  }
+
+.pop-hotel-card a {
+    text-decoration: none;
+    display: flex;
+}
+
+.pop-hotel-card:hover {
+    box-shadow: 0 0 20px #6495ED;
+}
+
+.pop-hotel-image img {
+    height: 130px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+ } 
+
+ .pop-hotel-body {
+    padding: 0 0 5px 10px;
+    box-sizing: border-box;
+}
+
+.pop-hotel-body p {
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
 
 
 /* Mobile */
