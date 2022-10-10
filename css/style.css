@@ -36,7 +36,6 @@ h1 {
 
 h2 {
     font-size: 21px;
-    margin-bottom: 20px;
 }
 
 h3 {
@@ -204,41 +203,67 @@ nav a:hover {
     display: flex;
 }
 
-#hotel-block {
+#hotel-block {  
     background-color:#F2F2F2;
     width: 66%;
     border-radius: 20px;
     margin-right: 3%;
+    padding: 2% 3%;
 }
 
 #hotel-cards {
     display: flex;
-    justify-content: center ;
+    justify-content: space-between ;
     flex-wrap: wrap;
+    margin: 1% 0 2.5% 0;
+}
+
+#display-more {
+    text-decoration: none;
+    color:black;
+    font-family: "raleway-bold";
+}
+
+#hotel-block a:hover {
+    text-decoration: none;
+    color:#0065FC;
 }
 
 #pop-hotel-block {
     background-color:#F2F2F2;
     width: 33%;
     border-radius: 20px;
+    padding: 2% 3%;
 }
 
 #pop-hotel-cards {
     display: flex;
+    justify-content: center ;
     flex-wrap: wrap;
+}
+
+#pop-hotel-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#pop-hotel-title i {
+    color:black;
+    font-size: 18px;
 }
 
 
 /* Carte hébergement */
 
 .hotel-card {
-    width: 250px;
+    width: 260px;
     border: solid 5px;
     border-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
-    margin: 1.5%;
+    margin: 2% 0;
   }
 
 .hotel-card a {
@@ -253,7 +278,7 @@ nav a:hover {
     height: 115px;
     width: 100%;
     object-fit: cover;
-    border-radius: 10px 10px 0 0;
+    border-radius: 18px 18px 0 0;
  } 
 
  .hotel-body {
@@ -381,4 +406,28 @@ nav a:hover {
     #list-of-filters {
         flex-wrap: wrap;
     }
+
+
+    /* Hotel section */
+
+    #hotel-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hotel-block {
+        background-color:white;
+        width: 100%;
+        border-radius: 20px;
+        margin-right: 3%;
+    }
+
+    
+    #pop-hotel-block {
+        background-color:#F2F2F2;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 5%;
+    }
+    
 }
