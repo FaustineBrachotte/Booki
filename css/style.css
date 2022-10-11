@@ -471,7 +471,19 @@ nav a:hover {
     .pop-hotel-body p {
         margin-bottom: 10px;
     }
-}
+
+    /* Tablette activités */
+
+    .activity-card:nth-child(1) img { height: 150px; } 
+    .activity-card:nth-child(2) img { height: 150px; } 
+    .activity-card:nth-child(3) img { height: 150px; } 
+    .activity-card:nth-child(4) img { height: 150px; } 
+    .activity-card:nth-child(5) img { height: 150px; } 
+    .activity-card:nth-child(6) img { height: 150px; } 
+
+    .activity-card {
+        width: 30%;
+    }
 
 
 
@@ -512,6 +524,7 @@ nav a:hover {
     #hotel-block {
         background-color:white;
         width: 100%;
+        padding: 33px 30px;
     }
 
     #pop-hotel-block {
@@ -520,16 +533,37 @@ nav a:hover {
     }
 
 
+
     /* Hotel cards */
 
     .hotel-card {
         width : 100%;
     }
-    
-    /* Hotel cards */
 
     .pop-hotel-card {
         width: 100%;
+    }
+
+
+     /* Mobile activités */
+
+    .activity-card:nth-child(1) img { height: 150px; } 
+    .activity-card:nth-child(2) img { height: 150px; } 
+    .activity-card:nth-child(3) img { height: 150px; } 
+    .activity-card:nth-child(4) img { height: 150px; } 
+    .activity-card:nth-child(5) img { height: 150px; } 
+    .activity-card:nth-child(6) img { height: 150px; } 
+
+    .activity-card {
+        width: 100%;
+    }
+
+    #activities-cards {
+        height: 100%;
+    }
+
+    #activities-block {
+        padding: 0 30px;
     }
 
 }
