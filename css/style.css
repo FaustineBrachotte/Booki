@@ -3,11 +3,11 @@
    /* box-sizing est appliqué à tous les éléments */
    }
 
- * {
+* {
      margin: 0;
  }  
 
-body {
+header, main {
     margin-left: 60px;
     margin-right: 60px;
 }
@@ -386,6 +386,45 @@ nav a:hover {
 
 #activities-block h2 {
     margin: 40px 0 20px 0;
+}
+
+
+/* Footer */
+
+h4 {
+    font-family: 'raleway-bold';
+    font-size: 18px;
+    margin: 45px 0 15px 0;
+}
+
+footer {
+    display: flex;
+    background-color: #F2F2F2;
+    padding: 0 0 40px 60px;
+    column-gap: 18%;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    color:#0065FC;
+}
+
+footer li, p {
+    line-height: 2;
+  }
+
+#footer-body {
+    display: flex;
+    justify-content: flex-start;
 }
 
 
