@@ -435,9 +435,9 @@ footer li, p {
 @media all and (max-width: 992px)
 {
 
-    body {
-        margin-left: none;
-        margin-right: none;
+    main, header {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
 
@@ -608,4 +608,5 @@ footer li, p {
         flex-direction: column;
     }
 
+}
 }
