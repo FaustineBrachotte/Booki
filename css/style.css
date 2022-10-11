@@ -571,10 +571,6 @@ footer li, p {
         width: 100%;
     }
 
-
-
-    /* Hotel cards */
-
     .hotel-card {
         width : 100%;
     }
@@ -603,6 +599,13 @@ footer li, p {
 
     #activities-block {
         padding: 0 30px;
+    }
+
+
+    /* Mobile footer */
+
+    footer {
+        flex-direction: column;
     }
 
 }
