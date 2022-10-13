@@ -24,8 +24,9 @@ body {
     font-family: 'raleway-regular', Arial, serif;
 }
 
-h1, h2, h3, h4, #search-placeholder, #search-button, #filters-section, #display-more {
+h1, h2, h3, h4, h5, #search-placeholder, #search-button, #filters-section, #display-more {
     font-family: 'raleway-bold', Arial, serif;
+    color:black;
 }
 
 h1 {
@@ -35,15 +36,19 @@ h1 {
 
 h2 {
     font-size: 21px;
+    margin: 30px 0;
 }
 
 h3 {
-    color: black;
     font-size: 16px;
     margin: 7px 0 7px 0;
 }
 
 h4 {
+    margin : 10px 15px;
+}
+
+h5 {
     font-size: 18px;
     margin: 45px 0 15px 0;
 }
@@ -74,7 +79,7 @@ nav ul {
 }
 
 nav li {
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav a {
@@ -200,6 +205,7 @@ nav a:hover {
 
 #hotel-section {
     display: flex;
+    margin-bottom: 50px;
 }
 
 #hotel-block {  
@@ -207,14 +213,13 @@ nav a:hover {
     width: 66%;
     border-radius: 20px;
     margin-right: 3%;
-    padding: 33px 45px;
+    padding: 0 45px;
 }
 
 #hotel-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 10px 0 15px 0;
 }
 
 #display-more {
@@ -236,7 +241,7 @@ nav a:hover {
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
-    margin: 15px 0;
+    margin-bottom: 30px;
 }
 
 .hotel-card a {
@@ -256,7 +261,6 @@ nav a:hover {
 
  .hotel-body {
     padding: 0 0 5px 10px;
-    box-sizing: border-box;
 }
 
 .hotel-body p {
@@ -283,18 +287,19 @@ nav a:hover {
     background-color:#F2F2F2;
     width: 33%;
     border-radius: 20px;
-    padding: 30px 45px;
+    padding: 0 45px;
 }
 
 #pop-hotel-cards {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 #pop-hotel-title {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #pop-hotel-title i {
@@ -302,15 +307,14 @@ nav a:hover {
     font-size: 18px;
 }
 
-
 .pop-hotel-card {
     width: 100%;
     border: solid 5px;
     border-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .pop-hotel-card a {
@@ -323,15 +327,14 @@ nav a:hover {
 }
 
 .pop-hotel-card img {
-    height: 130px;
+    height: 145px;
     width: 42%;
     object-fit: cover;
-    border-radius: 10px 0 0 10px;
+    border-radius: 20px 0 0 20px;
 } 
 
  .pop-hotel-body {
     padding: 0 15px 5px 15px;
-    box-sizing: border-box;
 }
 
 .pop-hotel-body p {
@@ -344,7 +347,7 @@ nav a:hover {
 /* Activités */
 
 #activities-cards {
-    display:flex;
+    display: flex;
     flex-flow: column wrap;
     align-content: space-between;
     height: 500px;
@@ -365,18 +368,12 @@ nav a:hover {
     margin-bottom: 40px;
 }
 
-.activity-card h3 {
-    margin: 12px;
-}
-
 .activity-card img {
     width: 100%;
     height: calc(100% - 50px);
     object-fit: cover;
     border-radius: 10px 10px 0 0;
 }
-
-
 
 .activity-card:nth-child(1) { height: 100%; } 
 .activity-card:nth-child(2) { height: 51%; } 
@@ -385,9 +382,6 @@ nav a:hover {
 .activity-card:nth-child(5) { height: 39%; } 
 .activity-card:nth-child(6) { height: 45%; } 
 
-#activities-block h2 {
-    margin: 40px 0 20px 0;
-}
 
 
 /* Footer */
@@ -417,15 +411,10 @@ footer li, p {
     line-height: 2;
 }
 
-#footer-body {
-    display: flex;
-    justify-content: flex-start;
-}
 
 
 
-
-/*** Tablette ***/
+/*** Format Tablette ***/
 
 @media all and (max-width: 992px) {
 
@@ -438,7 +427,6 @@ footer li, p {
     /* Tablette header */
 
     nav a:hover {
-        color: #0065FC;
         border-top: none;
         border-bottom: 3px solid #0065FC;
     }
@@ -448,8 +436,6 @@ footer li, p {
     }
 
     header img { 
-        height: 45px;
-        margin-top: 20px;
         margin-bottom: 20px;
     }
 
@@ -461,10 +447,9 @@ footer li, p {
     }
 
 
-    /* Tablette Hotel section */
+    /* Tablette cartes hébergements */
 
     #hotel-section {
-        display: flex;
         flex-direction: column-reverse;
     }
 
@@ -474,36 +459,34 @@ footer li, p {
     }
 
     #pop-hotel-block {
-        background-color:#F2F2F2;
         width: 100%;
     }
 
-    /* Tablette Pop Hotel cards */
+
+    /* Tablette cartes les plus populaires */
 
     .pop-hotel-card {
         width: 30%;
     }
 
     .pop-hotel-card a {
-        text-decoration: none;
-        display: flex;
         flex-direction: column;
     }
     
     .pop-hotel-card img {
         height: 130px;
         width: 100%;
-        object-fit: cover;
         border-radius: 10px 10px 0 0;
-     } 
+    } 
 
      #pop-hotel-cards {
-        justify-content: space-around ;
+        justify-content: space-around;
     }
 
     .pop-hotel-body p {
         margin-bottom: 10px;
     }
+
 
     /* Tablette activités */
 
@@ -521,7 +504,7 @@ footer li, p {
 
 
 
-/*** Mobile ***/
+/*** Format Mobile ***/
 
 @media all and (max-width: 768px) {
 
@@ -538,7 +521,7 @@ footer li, p {
         color: white;
         background-color: #0065FC;
         border: none;
-        display:inline;
+        display: inline;
         padding: 17px;
         border-radius: 13px 13px 13px 13px;
         font-family: "FontAwesome";
@@ -550,17 +533,10 @@ footer li, p {
     }
 
 
-    /* Mobile Hotel section */
+    /* Mobile section hébergement */
 
     #hotel-block {
-        background-color:white;
-        width: 100%;
         padding: 33px 30px;
-    }
-
-    #pop-hotel-block {
-        background-color:#F2F2F2;
-        width: 100%;
     }
 
     .hotel-card {
