@@ -522,13 +522,12 @@ footer li, p {
 
     #search-button-mobile {
         position: relative;
-        top:-4%;
         left: -6%;
         color: white;
         background-color: #0065FC;
         border: none;
         display: inline;
-        padding: 17px;
+        padding: 15px;
         border-radius: 13px 13px 13px 13px;
         font-family: "FontAwesome";
         }
