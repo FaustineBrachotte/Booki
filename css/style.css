@@ -241,7 +241,7 @@ nav a:hover {
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
-    margin-bottom: 4%;
+    margin-bottom: 30px;
 }
 
 .hotel-card a {
@@ -314,7 +314,7 @@ nav a:hover {
     border-radius: 20px;
     background-color: white;
     box-shadow: 0 0 10px #D3D3D3;
-    margin-bottom: 9%;
+    margin-bottom: 30px;
 }
 
 .pop-hotel-card a {
@@ -459,12 +459,16 @@ footer li, p {
         padding: 0;
     }
 
-    #pop-hotel-block {
-        width: 100%;
-    }
+    .hotel-card img {
+        height: 130px;
+    }    
 
 
     /* Tablette cartes les plus populaires */
+
+    #pop-hotel-block {
+        width: 100%;
+    }
 
     .pop-hotel-card {
         width: 30%;
@@ -509,6 +513,7 @@ footer li, p {
 
 @media all and (max-width: 768px) {
 
+
 /* Mobile search bar */
 
     #search-button {
@@ -537,7 +542,7 @@ footer li, p {
     /* Mobile section hébergement */
 
     #hotel-block {
-        padding: 33px 30px;
+        padding: 3%;
     }
 
     .hotel-card {
@@ -551,12 +556,12 @@ footer li, p {
 
     /* Mobile activités */
 
-    .activity-card:nth-child(1) { height: 200px; } 
-    .activity-card:nth-child(2) { height: 200px; } 
-    .activity-card:nth-child(3) { height: 200px; } 
-    .activity-card:nth-child(4) { height: 200px; } 
-    .activity-card:nth-child(5) { height: 200px; } 
-    .activity-card:nth-child(6) { height: 200px; } 
+    .activity-card:nth-child(1) { height: 220px; } 
+    .activity-card:nth-child(2) { height: 220px; } 
+    .activity-card:nth-child(3) { height: 220px; } 
+    .activity-card:nth-child(4) { height: 220px; } 
+    .activity-card:nth-child(5) { height: 220px; } 
+    .activity-card:nth-child(6) { height: 220px; } 
 
     .activity-card {
         width: 100%;
@@ -567,7 +572,7 @@ footer li, p {
     }
 
     #activities-block {
-        padding: 0 30px;
+        padding: 0 3%;
     }
 
 
