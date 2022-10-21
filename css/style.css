@@ -224,7 +224,6 @@ nav a:hover {
 
 #display-more {
     text-decoration: none;
-    color:black;
 }
 
 #hotel-block a:hover {
@@ -259,7 +258,7 @@ nav a:hover {
     border-radius: 18px 18px 0 0;
 } 
 
- .hotel-body {
+.hotel-body {
     padding: 0 0 2% 5%;
 }
 
@@ -333,7 +332,7 @@ nav a:hover {
     border-radius: 20px 0 0 20px;
 } 
 
- .pop-hotel-body {
+.pop-hotel-body {
     padding: 2% 4%;
 }
 
@@ -440,12 +439,6 @@ footer li, p {
     }
 
 
-    /* Tablette search bar */
-
-    #search-button-mobile {
-        display: none;
-    }
-
 
     /* Tablette cartes hébergements */
 
@@ -457,11 +450,7 @@ footer li, p {
         background-color:white;
         width: 100%;
         padding: 0;
-    }
-
-    .hotel-card img {
-        height: 130px;
-    }    
+    }   
 
 
     /* Tablette cartes les plus populaires */
@@ -485,7 +474,7 @@ footer li, p {
     } 
 
      #pop-hotel-cards {
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .pop-hotel-body p {
@@ -540,10 +529,6 @@ footer li, p {
 
     /* Mobile section hébergement */
 
-    #hotel-block {
-        padding: 3%;
-    }
-
     .hotel-card {
         width : 100%;
     }
@@ -570,9 +555,6 @@ footer li, p {
         height: 100%;
     }
 
-    #activities-block {
-        padding: 0 3%;
-    }
 
 
     /* Mobile footer */
