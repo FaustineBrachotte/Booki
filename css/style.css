@@ -76,16 +76,13 @@ header img {
 nav ul {
     list-style-type: none;
     display: flex;
-}
-
-nav li {
-    margin-right: 50px;
+    padding: 0;
 }
 
 nav a {
     font-size: 16px;
     color: #181818;
-    padding: 28px 0 15px 0;
+    padding: 28px 30px 15px 30px;
     text-decoration: none;
 }
 
@@ -417,7 +414,7 @@ footer li, p {
 
 @media all and (max-width: 992px) {
 
-    main, header {
+    main {
         margin-left: 40px;
         margin-right: 40px;
     }
@@ -425,17 +422,23 @@ footer li, p {
 
     /* Tablette header */
 
-    nav a:hover {
-        border-top: none;
-        border-bottom: 3px solid #0065FC;
-    }
-
     header {
         flex-direction: column;
+        margin: 0 0 50px 0;
     }
 
     header img { 
-        margin-bottom: 20px;
+        margin: 20px 0 20px 30px;
+    }
+
+    nav a {
+        border-bottom: 3px solid #F2F2F2;
+        padding: 15px 100px;
+    }
+
+    nav a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065FC;
     }
 
 
