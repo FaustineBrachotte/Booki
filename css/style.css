@@ -424,7 +424,7 @@ footer li, p {
 
     header {
         flex-direction: column;
-        margin: 0 0 50px 0;
+        margin-bottom: 50px;
     }
 
     header img { 
@@ -433,7 +433,7 @@ footer li, p {
 
     nav a {
         border-bottom: 3px solid #F2F2F2;
-        padding: 15px 100px;
+        padding: 15px 85px;
     }
 
     nav a:hover {
