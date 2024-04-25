@@ -2,7 +2,7 @@
 
 ## 🎓 Projet OpenClassrooms #1
 
-L'objetif de ce projet est d'intégrer l'interface du site Booki à partir de maquettes desktop et mobile au format PNG. Le site doit être responsive, le format tablette est à créer librement.
+L'objectif de ce projet est d'intégrer l'interface du site Booki à partir de maquettes desktop et mobile au format PNG. Le site doit être responsive, le format tablette est à créer librement.
 Le site est entièrement conçu en HTML et CSS.
 
 <br>
