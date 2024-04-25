@@ -22,5 +22,5 @@ Le site est entièrement conçu en HTML et CSS.
 **Maquette mobile :**
 <br>
 
-![maquette-desktop](https://github.com/FaustineBrachotte/Booki/assets/105442482/e3a0b9b7-40bf-41c8-bc58-4e8423cee284)
+![maquette-mobile](https://github.com/FaustineBrachotte/Booki/assets/105442482/e3a0b9b7-40bf-41c8-bc58-4e8423cee284)
 
