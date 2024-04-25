@@ -7,6 +7,11 @@ Le site est entièrement conçu en HTML et CSS.
 
 <br>
 
+**Enjeux :**
+- Implémenter une interface responsive
+- Intégrer du contenu conformément à une maquette
+<br>
+
 **Maquette desktop :**
 <br>
 
